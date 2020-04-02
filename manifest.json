@@ -1,0 +1,17 @@
+{
+    "name": "Corona2Puppy",
+    "version": "1.0",
+    "description": "converts all Coronavirus words to puppy gifs",
+    "content_scripts": [{
+      "js": ["puppy.js"],
+      "matches": ["https://twitter.com/*"]
+    }],
+    "manifest_version": 2,
+    "browser_action": {
+      "default_icon": {                    
+        "16": "dog-face.png"         
+                   
+      }
+             
+    }
+  }
